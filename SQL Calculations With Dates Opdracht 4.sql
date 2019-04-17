@@ -1,0 +1,1 @@
+SELECT EventName, FORMAT(EventDate, 'dddd dd') + 'th ' + DATENAME(month, EventDate) + FORMAT(EventDate, ' yyyy') AS 'Full date' FROM tblEvent;
